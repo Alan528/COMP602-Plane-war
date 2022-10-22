@@ -6,6 +6,9 @@ public class EnemyMove : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speed = 2;
+
+    public GameObject baozha;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,7 @@ public class EnemyMove : MonoBehaviour
         if (col.transform.tag == "ZiDan")
         {
             Destroy (gameObject);
+            Instantiate(baozha, transform.position, Quaternion.identity);
             Destroy (col.gameObject);
         }
     }

@@ -406,6 +406,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Code/BaozhaControl.cs"
 "Assets/Code/BGmove.cs"
 "Assets/Code/EnemyManger.cs"
 "Assets/Code/EnemyMove.cs"
