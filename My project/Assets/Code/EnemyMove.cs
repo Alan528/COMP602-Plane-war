@@ -9,16 +9,15 @@ public class EnemyMove : MonoBehaviour
 
     public GameObject baozha;
 
-    // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, -speed * Time.deltaTime, 0);
+       
     }
 
     void OnTriggerEnter2D(Collider2D col)
